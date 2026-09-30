@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Elliot's Canvas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 
 <div class = mainContainer></div>
@@ -42,11 +42,21 @@ Hellou world! My name is Elliot, a super awesomeburger Junior at MECHS. I'm an a
 
 Kudos to Milo for helping me with my websites code ˆᗜˆ
 
+<div id = "commentBox">
+    <h2 id="commentArea"></h2>
 </div>
+<textarea id = "comment"></textarea>
+<button id="commentButton">Click me</button>
 
+<script>
+    var commentInput;
+    var allComments;
+onEvent, "commentButton", click, function(){
+allComments = allComments + "/n" + getText("commentInput");
+setText("commentInput", "");
+setText("commentArea", allComments);
+}
 
-</div>
-</div>
 
 
 
