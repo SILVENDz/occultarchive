@@ -6,8 +6,13 @@
 .directories{
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #B8E0DB;
     color: #5F7875;
     font-family: 'Geist Pixel', sans-serif
+}
+
+ul li{
+    list-style-type: none;
+    
 }
